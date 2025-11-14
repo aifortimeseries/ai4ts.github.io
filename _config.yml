@@ -22,14 +22,14 @@ minima:
       url: "https://www.linkedin.com/in/jschneerson"
 
 section_order:
-  - introduction
-  - standards
-  - algorithms
-  - datasets
-  - models
-  - papers
-  - acknowledgments
-  - references
+  - _introduction
+  - _standards
+  - _algorithms
+  - _datasets
+  - _models
+  - _papers
+  - _acknowledgments
+  - _references
 
 section_metadata:
   introduction:
