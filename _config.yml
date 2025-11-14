@@ -2,7 +2,7 @@ title: State-of-the-Art AI for Time Series
 description: >-
   Open collaborative SOTA resource for AI applied to time series: 
   standardization efforts, algorithms, datasets, models, research papers, 
-  and references. Jointly maintained by IEEE P3579 WG and W3C WAITS CG.
+  and references. Jointly maintained by IEEE P3579 and W3C WAITS CG.
 
 url: "https://ai4ts.org"
 baseurl: ""
