@@ -1,9 +1,3 @@
----
-layout: page
----
-
-{{ site.description }}
-
 ## Table of Contents
 
 {% for section_name in site.section_order %}
