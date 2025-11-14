@@ -1,9 +1,6 @@
 ---
 layout: page
-title: Home
 ---
-
-# {{ site.title }}
 
 {{ site.description }}
 
