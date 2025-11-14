@@ -7,7 +7,7 @@ description: >-
 url: "https://ai4ts.org"
 baseurl: ""
 
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
