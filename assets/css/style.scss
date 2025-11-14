@@ -1,0 +1,14 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+.post-content h2,
+.post-content h3 {
+  border-top: none;
+  padding-top: 0;
+}
+
+.post-content hr { display: none; }
