@@ -2,6 +2,16 @@
 layout: page
 ---
 
+<style>
+.page-content {
+  padding: 0 !important;
+}  
+.post-header {
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+</style>
+
 {% for section_name in site.section_order %}
   {% assign section_meta = site.section_metadata[section_name] %}
   {% assign items = site[section_name] | sort: 'order' %}
