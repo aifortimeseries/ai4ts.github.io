@@ -1,0 +1,88 @@
+title: State-of-the-Art AI for Time Series
+description: >-
+  Open collaborative SOTA resource for AI applied to time series: 
+  standardization efforts, algorithms, datasets, models, research papers, 
+  and references. Jointly maintained by IEEE P3579 WG and W3C WAITS CG.
+
+url: "https://ai4ts.org"
+baseurl: ""
+
+theme: minima
+
+minima:
+  skin: dark
+  date_format: "%B %d, %Y"
+  
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/aifortimeseries"
+    - title: Jonathan Schneerson
+      icon: linkedin
+      url: "https://www.linkedin.com/in/jschneerson"
+
+section_order:
+  - introduction
+  - standards
+  - algorithms
+  - datasets
+  - models
+  - papers
+  - acknowledgments
+  - references
+
+section_metadata:
+  introduction:
+    title: "Introduction"
+  standards:
+    title: "Standardization Efforts"
+  algorithms:
+    title: "Algorithms"
+  datasets:
+    title: "Datasets"
+  models:
+    title: "Models"
+  papers:
+    title: "Papers"
+  acknowledgments:
+    title: "Acknowledgments"
+  references:
+    title: "References"
+
+collections:
+  introduction:
+    output: false
+    sort_by: order
+  standards:
+    output: false
+    sort_by: order
+  algorithms:
+    output: false
+    sort_by: order
+  datasets:
+    output: false
+    sort_by: order
+  models:
+    output: false
+    sort_by: order
+  papers:
+    output: false
+    sort_by: order
+  acknowledgments:
+    output: false
+    sort_by: order
+  references:
+    output: false
+    sort_by: order
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - .github/
