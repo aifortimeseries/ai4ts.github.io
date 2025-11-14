@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: page
+title: Home
 ---
 
 # {{ site.title }}
