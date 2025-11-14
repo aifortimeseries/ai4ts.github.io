@@ -19,15 +19,9 @@ layout: page
 
 [Edit on GitHub](https://github.com/aifortimeseries/ai4ts.github.io/edit/main/{{ item.path }}){:target="_blank"}
 
----
-
     {% endfor %}
   {% else %}
 *This section is currently empty. [Add first item](https://github.com/aifortimeseries/ai4ts.github.io/new/main/{{ section_name }}){:target="_blank"}*
   {% endif %}
   
 {% endfor %}
-
----
-
-*Maintained by IEEE P3579 and W3C WAITS CG*
