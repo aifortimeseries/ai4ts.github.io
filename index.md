@@ -27,7 +27,7 @@ layout: page
 
 {{ item.content }}
 
-[Edit on GitHub](https://github.com/aifortimeseries/ai4ts.github.io/edit/main/{{ item.path }}){:target="_blank"}
+<a href="https://github.com/aifortimeseries/ai4ts.github.io/edit/main/{{ item.path }}" target="_blank" title="Edit on GitHub"><span class="fa-brands fa-github fa-lg grey"></span></a>
 
     {% endfor %}
   {% else %}
