@@ -6,7 +6,7 @@ layout: page
   {% assign section_meta = site.section_metadata[section_name] %}
   {% assign items = site[section_name] | sort: 'order' %}
   
-<h2 id="{{ section_name }}">{{ section_meta.title }}</h2>
+<h3 id="{{ section_name }}">{{ section_meta.title }}</h3>
 
   {% if items.size > 0 %}
     {% for item in items %}
