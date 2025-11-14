@@ -44,4 +44,4 @@ layout: home
 
 ---
 
-*Maintained by IEEE P3579 WG and W3C WAITS CG*
+*Maintained by IEEE P3579 and W3C WAITS CG*
