@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Home
 ---
 
 ## Table of Contents
