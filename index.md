@@ -2,14 +2,6 @@
 layout: page
 ---
 
-## Table of Contents
-
-{% for section_name in site.section_order %}
-- [{{ site.section_metadata[section_name].title }}](#{{ section_name }})
-{% endfor %}
-
----
-
 {% for section_name in site.section_order %}
   {% assign section_meta = site.section_metadata[section_name] %}
   {% assign items = site[section_name] | sort: 'order' %}
