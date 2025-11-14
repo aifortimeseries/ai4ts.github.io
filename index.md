@@ -11,8 +11,6 @@ layout: page
   {% if items.size > 0 %}
     {% for item in items %}
 
-### {{ item.title }}
-
 {% if item.author %}*Author: {{ item.author }}*{% endif %}
 {% if item.date %}*Date: {{ item.date | date: site.minima.date_format }}*{% endif %}
 {% if item.status %}*Status: {{ item.status }}*{% endif %}
