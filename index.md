@@ -1,3 +1,8 @@
+   ---
+   layout: page
+   title: Home
+   ---
+
 ## Table of Contents
 
 {% for section_name in site.section_order %}
